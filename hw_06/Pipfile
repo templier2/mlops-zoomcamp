@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scikit-learn = "==1.5.0"
+pyarrow = "*"
+pandas = "*"
+boto3 = "*"
+botocore = "*"
+s3fs = "*"
+
+[dev-packages]
+pytest = "*"
+s3fs = "*"
+
+[requires]
+python_version = "3.10"
